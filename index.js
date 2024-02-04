@@ -22,7 +22,7 @@ while(x <=30) {
 // Ejercicio 3, simulador interactivo.
 //Calculadora de IVA
 
-let valorNeto = parseInt (prompt("Bievenido a la calculadora de IVA, favor ingresar el precio neto."));
+let valorNeto = parseInt (prompt("Bievenido a la calculadora de IVA, favor ingresar el precio neto ($) y te entregaremos el valor con IVA. Sin puntos."));
 let valorTotal = calcularIva; 
 
 function calcularIva () {
