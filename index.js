@@ -3,7 +3,7 @@
 let velocidad = parseInt (prompt("Bienvenido! Ingrese la velocidad de su auto por la carretera"));
 
 if (velocidad <=39) {
-    alert("¡Manejas muy lento!");
+    alert("¡Baja velocidad, Manejas muy lento!");
 } else if (velocidad >= 40 && velocidad <=60) {
     alert ("¡Velocidad correspondiente, eres un conductor responsable!");
 } else {
