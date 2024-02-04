@@ -31,6 +31,6 @@ function calcularIva () {
 
 calcularIva ();
 
-alert("El valor Neto es: $" + valorNeto + 
-" El IVA (21%) es: " + (valorNeto * 21 /100)
-     + " El valor total es: $" + valorTotal)
+alert("El valor Neto es: $" + valorNeto + "." + 
+" El IVA (21%) es: " + (valorNeto * 21 /100)+ "."
+     + " El valor total es: $" + valorTotal + ".")
